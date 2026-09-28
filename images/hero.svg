@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Illustration einer Küstenstadt an der französischen Riviera">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7d9c4"/>
+      <stop offset="0.55" stop-color="#fbeee3"/>
+      <stop offset="1" stop-color="#e6f0f4"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b9bbf"/>
+      <stop offset="1" stop-color="#1f4e79"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4c07a"/>
+      <stop offset="1" stop-color="#e8926a"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="800" height="560" rx="36"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="800" height="560" fill="url(#sky)"/>
+    <circle cx="560" cy="250" r="92" fill="url(#sun)" opacity="0.95"/>
+    <!-- Wolken -->
+    <g fill="#fff" opacity="0.8">
+      <ellipse cx="180" cy="110" rx="70" ry="16"/>
+      <ellipse cx="220" cy="98" rx="40" ry="14"/>
+      <ellipse cx="650" cy="80" rx="60" ry="12"/>
+    </g>
+    <!-- Möwen -->
+    <g fill="none" stroke="#1f4e79" stroke-width="3" stroke-linecap="round" opacity="0.7">
+      <path d="M300 150 q10 -10 20 0 q10 -10 20 0"/>
+      <path d="M350 120 q7 -7 14 0 q7 -7 14 0"/>
+    </g>
+    <!-- Berge -->
+    <path d="M0 300 L120 230 L210 270 L330 205 L450 280 L560 240 L680 285 L800 250 L800 330 L0 330 Z" fill="#a9c3cf" opacity="0.8"/>
+    <path d="M0 320 L90 285 L200 310 L300 280 L420 318 L540 295 L680 320 L800 300 L800 340 L0 340 Z" fill="#8fb1c2"/>
+    <!-- Meer -->
+    <rect y="330" width="800" height="230" fill="url(#sea)"/>
+    <g stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.55" fill="none">
+      <path d="M470 360 h140"/>
+      <path d="M500 385 h90"/>
+      <path d="M520 410 h60"/>
+      <path d="M340 450 q20 -8 40 0 t40 0"/>
+      <path d="M600 480 q20 -8 40 0 t40 0"/>
+      <path d="M430 520 q20 -8 40 0 t40 0"/>
+    </g>
+    <!-- Segelboot -->
+    <g transform="translate(600 395)">
+      <path d="M-44 20 L44 20 L32 38 L-32 38 Z" fill="#fbf8f3"/>
+      <path d="M-40 20 L40 20" stroke="#d9734e" stroke-width="4"/>
+      <path d="M2 -70 L2 18" stroke="#1f4e79" stroke-width="3"/>
+      <path d="M6 -66 L44 12 L6 12 Z" fill="#fbf8f3"/>
+      <path d="M-2 -52 L-34 12 L-2 12 Z" fill="#f2c6b4"/>
+    </g>
+    <!-- Klippe mit Häusern -->
+    <path d="M0 250 C60 240 140 250 190 290 C240 330 280 380 330 420 C360 445 380 500 390 560 L0 560 Z" fill="#c9a27e"/>
+    <path d="M0 270 C70 262 130 272 175 305 C220 340 255 390 300 430 C330 455 350 505 358 560 L0 560 Z" fill="#b98c67"/>
+    <!-- Häuser -->
+    <g>
+      <rect x="30" y="200" width="70" height="80" fill="#f4d7c1"/>
+      <path d="M24 204 L65 178 L106 204 Z" fill="#d9734e"/>
+      <rect x="45" y="222" width="14" height="20" rx="7" fill="#3a7ca5"/>
+      <rect x="70" y="222" width="14" height="20" rx="7" fill="#3a7ca5"/>
+      <rect x="57" y="255" width="16" height="25" rx="8" fill="#1f4e79"/>
+
+      <rect x="100" y="228" width="64" height="72" fill="#fbf1e4"/>
+      <path d="M95 232 L132 208 L169 232 Z" fill="#c8623f"/>
+      <rect x="112" y="248" width="12" height="18" fill="#8a9a5b"/>
+      <rect x="140" y="248" width="12" height="18" fill="#8a9a5b"/>
+      <rect x="112" y="276" width="12" height="18" fill="#8a9a5b"/>
+
+      <rect x="0" y="262" width="60" height="70" fill="#e8b4a6"/>
+      <path d="M-6 266 L30 244 L66 266 Z" fill="#b8563a"/>
+      <rect x="14" y="282" width="12" height="16" fill="#fbf8f3"/>
+      <rect x="36" y="282" width="12" height="16" fill="#fbf8f3"/>
+
+      <rect x="150" y="286" width="58" height="60" fill="#f6e3b8"/>
+      <path d="M145 290 L179 268 L213 290 Z" fill="#d9734e"/>
+      <rect x="162" y="304" width="12" height="16" fill="#3a7ca5"/>
+      <rect x="184" y="304" width="12" height="16" fill="#3a7ca5"/>
+      <!-- Markise -->
+      <path d="M156 322 h46 l-4 10 h-38 z" fill="#fbf8f3"/>
+      <path d="M160 322 h6 l-1 10 h-6 z M172 322 h6 l-1 10 h-6 z M184 322 h6 l-1 10 h-6 z M196 322 h6 l-2 10 h-5 z" fill="#d9734e"/>
+    </g>
+    <!-- Zypressen & Olivenbaum -->
+    <g fill="#6f7f45">
+      <ellipse cx="226" cy="318" rx="10" ry="36"/>
+      <ellipse cx="244" cy="332" rx="8" ry="28"/>
+    </g>
+    <g>
+      <circle cx="90" cy="360" r="34" fill="#8a9a5b"/>
+      <circle cx="120" cy="350" r="26" fill="#9aab68"/>
+      <rect x="98" y="370" width="6" height="40" fill="#7a5a3f"/>
+    </g>
+    <!-- Sonnenschirm am Strand -->
+    <g transform="translate(470 520)">
+      <path d="M0 -70 L0 40" stroke="#fbf8f3" stroke-width="4"/>
+      <path d="M-60 -60 Q0 -110 60 -60 Z" fill="#d9734e"/>
+      <path d="M-20 -60 Q0 -106 20 -60 Z" fill="#fbf8f3"/>
+    </g>
+    <path d="M360 560 C420 520 520 505 640 515 C700 520 760 535 800 548 L800 560 Z" fill="#f3e2cc"/>
+  </g>
+</svg>

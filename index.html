@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Riviera – Französisch in 5 Minuten am Tag</title>
+  <meta name="description" content="Französisch lernen für den Alltag: kurze 5-Minuten-Lektionen für Café, Reisen und Shopping – mit Aussprache, Übungen und sichtbarem Fortschritt.">
+  <meta name="theme-color" content="#fbf8f3">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand" aria-label="Riviera – Startseite">
+      <span class="brand-mark">R</span>
+      <span class="brand-name">Riviera<em>français</em></span>
+    </a>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a href="#/" data-nav="home"><span class="nav-ico" aria-hidden="true">☀️</span><span>Heute</span></a>
+      <a href="#/review" data-nav="review"><span class="nav-ico" aria-hidden="true">🔁</span><span>Wiederholen</span></a>
+      <a href="#/words" data-nav="words"><span class="nav-ico" aria-hidden="true">📖</span><span>Wortschatz</span></a>
+      <a href="#/progress" data-nav="progress"><span class="nav-ico" aria-hidden="true">📈</span><span>Fortschritt</span></a>
+    </nav>
+    <div class="top-stats" id="topStats"></div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="modal" class="modal" hidden></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
